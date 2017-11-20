@@ -1,5 +1,5 @@
 //
-//  MindfulnessViewController.swift
+//  StressLevelVC.swift
 //  Mindfulness
 //
 //  Created by Chloe Houlihan on 11/15/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MindfulnessViewController: UIViewController {
+class StressLevelVC: UIViewController {
 
     @IBOutlet weak var sliderValue: UILabel!
     @IBOutlet weak var stressSlider: UISlider! {

@@ -29,7 +29,7 @@
         <!--Mindfulness-->
         <scene sceneID="iKY-b9-Ahq">
             <objects>
-                <viewController id="Ald-FZ-s4e" customClass="MindfulnessViewController" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ald-FZ-s4e" customClass="StressLevelVC" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tK1-Pd-Kqn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,9 +187,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Favorites" id="z7r-96-USu"/>
-                    <navigationItem key="navigationItem" title="Favorites" id="rnB-j7-WTE">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="Zcc-UT-bA5"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Favorites" id="rnB-j7-WTE"/>
                     <connections>
                         <segue destination="IVC-1n-RTB" kind="show" identifier="faveSelected" id="jYw-bF-zmw"/>
                     </connections>
