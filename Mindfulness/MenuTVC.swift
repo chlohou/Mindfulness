@@ -10,6 +10,8 @@ import UIKit
 
 class MenuTVC: UITableViewController {
 
+    var stressLevel: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
