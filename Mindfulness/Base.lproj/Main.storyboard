@@ -164,13 +164,13 @@
         <!--Favorites-->
         <scene sceneID="ts0-Ah-ViJ">
             <objects>
-                <tableViewController id="8dU-Mw-lN4" sceneMemberID="viewController">
+                <tableViewController id="8dU-Mw-lN4" customClass="FavoritesTVC" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eAn-Mw-4on">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jLX-Vx-ogI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="faveCell" id="jLX-Vx-ogI">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jLX-Vx-ogI" id="gzL-8w-HM6">
@@ -185,10 +185,16 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Favorites" id="z7r-96-USu"/>
+                    <connections>
+                        <segue destination="IVC-1n-RTB" kind="show" identifier="faveSelected" id="jYw-bF-zmw"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amt-bK-qTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="690" y="633"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="pg0-8d-bVD"/>
+    </inferredMetricsTieBreakers>
 </document>

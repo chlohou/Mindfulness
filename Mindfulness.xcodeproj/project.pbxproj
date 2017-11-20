@@ -16,6 +16,8 @@
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
 		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
 		A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */; };
+		A7574F611FC36026009A0AF8 /* FavoritesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F601FC36026009A0AF8 /* FavoritesTVC.swift */; };
+		A7574F631FC365A0009A0AF8 /* MindfulAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F621FC365A0009A0AF8 /* MindfulAct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
 		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness.xcdatamodel; sourceTree = "<group>"; };
+		A7574F601FC36026009A0AF8 /* FavoritesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesTVC.swift; path = ../FavoritesTVC.swift; sourceTree = "<group>"; };
+		A7574F621FC365A0009A0AF8 /* MindfulAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulAct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,9 @@
 				A010BCCF1FBD15AA00C87E88 /* MindfulnessViewController.swift */,
 				A010BCC11FBD126700C87E88 /* Main.storyboard */,
 				A7574F591FC35677009A0AF8 /* ActivityVC.swift */,
+				A7574F601FC36026009A0AF8 /* FavoritesTVC.swift */,
 				A7574F571FC352A6009A0AF8 /* MenuTVC.swift */,
+				A7574F621FC365A0009A0AF8 /* MindfulAct.swift */,
 				A010BCC41FBD126700C87E88 /* Assets.xcassets */,
 				A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */,
 				A010BCC91FBD126700C87E88 /* Info.plist */,
@@ -150,6 +156,8 @@
 			files = (
 				A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */,
 				A010BCC01FBD126700C87E88 /* ViewController.swift in Sources */,
+				A7574F631FC365A0009A0AF8 /* MindfulAct.swift in Sources */,
+				A7574F611FC36026009A0AF8 /* FavoritesTVC.swift in Sources */,
 				A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */,
 				A010BCD01FBD15AA00C87E88 /* MindfulnessViewController.swift in Sources */,
 				A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */,

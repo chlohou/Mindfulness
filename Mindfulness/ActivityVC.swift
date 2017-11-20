@@ -10,17 +10,19 @@ import UIKit
 
 class ActivityVC: UIViewController {
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
-    let mindActivity = String()
-    let mindPrompt = String()
+    var isFave = Bool()
+    var mindActivity = String()
+    var mindPrompt = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.back(sender:)))
         self.navigationItem.leftBarButtonItem = backButton
         
+        if isFave == false {
         let favButton = UIBarButtonItem(title: "Add to Favorites", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.fave(sender:)))
         self.navigationItem.rightBarButtonItem = favButton
+        }
         // Do any additional setup after loading the view.
     }
 
