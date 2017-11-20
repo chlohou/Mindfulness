@@ -11,11 +11,9 @@ import UIKit
 class StressLevelVC: UIViewController {
 
     @IBOutlet weak var sliderValue: UILabel!
-    @IBOutlet weak var stressSlider: UISlider! {
-    didSet{
-        stressSlider.transform = CGAffineTransform(rotationAngle: CGFloat(-Double.pi/2))
-    }
-    }
+    @IBOutlet weak var stressSlider: UISlider! 
+    
+    
     
     @IBAction func stressChange(_ sender: UISlider) {
         sliderValue.text = String(format: "%.0f", stressSlider.value)
