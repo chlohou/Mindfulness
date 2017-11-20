@@ -12,6 +12,7 @@ class MenuTVC: UITableViewController {
     
     var options = [MindfulAct]()
     var selectedRow = Int()
+    var stressLevel = String()
     override func viewDidLoad() {
         super.viewDidLoad()
 
