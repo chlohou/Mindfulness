@@ -13,7 +13,7 @@ class MindfulnessViewController: UIViewController {
     @IBOutlet weak var sliderValue: UILabel!
     @IBOutlet weak var stressSlider: UISlider! {
     didSet{
-        stressSlider.transform = CGAffineTransform(rotationAngle: CGFloat(-M_PI_2))
+        stressSlider.transform = CGAffineTransform(rotationAngle: CGFloat(-Double.pi/2))
     }
     }
     
@@ -38,6 +38,7 @@ class MindfulnessViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
