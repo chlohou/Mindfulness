@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UPH-T0-HwX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UPH-T0-HwX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +29,6 @@
         <scene sceneID="iKY-b9-Ahq">
             <objects>
                 <viewController id="Ald-FZ-s4e" customClass="MindfulnessViewController" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides/>
                     <view key="view" contentMode="scaleToFill" id="tK1-Pd-Kqn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,19 +57,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZmK-Lh-dnK">
-                                <rect key="frame" x="140" y="588" width="94" height="30"/>
+                                <rect key="frame" x="140" y="590" width="94" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="Q4q-ry-y2v" kind="show" id="IZO-wz-oja"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="1Jw-7s-z0D"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mindfulness" id="5gq-Oc-wwB"/>
+                    <tabBarItem key="tabBarItem" title="Mindfulness" image="icons8-puzzle-26.png" selectedImage="icons8-puzzle-26.png" id="5gq-Oc-wwB"/>
                     <connections>
                         <outlet property="sliderValue" destination="exW-sZ-xs2" id="5BI-Fi-SfV"/>
                         <outlet property="stressSlider" destination="0aL-Lu-gas" id="UdN-ls-OB0"/>
-                        <segue destination="Q4q-ry-y2v" kind="showDetail" id="cA5-LV-pKh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nxb-V5-a8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -161,7 +162,7 @@
             </objects>
             <point key="canvasLocation" x="-306" y="126"/>
         </scene>
-        <!--Favorites-->
+        <!--Table View Controller-->
         <scene sceneID="ts0-Ah-ViJ">
             <objects>
                 <tableViewController id="8dU-Mw-lN4" customClass="FavoritesTVC" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
