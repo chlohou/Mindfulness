@@ -14,6 +14,8 @@
 		A010BCC81FBD126700C87E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */; };
 		A010BCD01FBD15AA00C87E88 /* MindfulnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BCCF1FBD15AA00C87E88 /* MindfulnessViewController.swift */; };
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
+		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
+		A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A010BCC91FBD126700C87E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A010BCCF1FBD15AA00C87E88 /* MindfulnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessViewController.swift; sourceTree = "<group>"; };
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
+		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				A010BCBF1FBD126700C87E88 /* ViewController.swift */,
 				A010BCCF1FBD15AA00C87E88 /* MindfulnessViewController.swift */,
 				A010BCC11FBD126700C87E88 /* Main.storyboard */,
+				A7574F591FC35677009A0AF8 /* ActivityVC.swift */,
 				A7574F571FC352A6009A0AF8 /* MenuTVC.swift */,
 				A010BCC41FBD126700C87E88 /* Assets.xcassets */,
 				A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */,
 				A010BCC91FBD126700C87E88 /* Info.plist */,
+				A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */,
 			);
 			path = Mindfulness;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */,
 				A010BCC01FBD126700C87E88 /* ViewController.swift in Sources */,
+				A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */,
 				A010BCD01FBD15AA00C87E88 /* MindfulnessViewController.swift in Sources */,
 				A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */,
 				A010BCBE1FBD126700C87E88 /* AppDelegate.swift in Sources */,
@@ -330,6 +338,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */,
+			);
+			currentVersion = A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */;
+			path = Mindfulness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A010BCB21FBD126700C87E88 /* Project object */;
 }
