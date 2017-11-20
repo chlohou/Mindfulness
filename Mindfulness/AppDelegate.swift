@@ -3,6 +3,7 @@
 //  Mindfulness
 //
 //  Created by Chloe Houlihan on 11/15/17.
+//  Collaborator: Cory Riecken 
 //  Copyright © 2017 Chloe Houlihan. All rights reserved.
 //
 
