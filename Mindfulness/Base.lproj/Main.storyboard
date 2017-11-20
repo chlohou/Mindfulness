@@ -68,7 +68,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="1Jw-7s-z0D"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mindfulness" id="5gq-Oc-wwB"/>
+                    <tabBarItem key="tabBarItem" title="Mindfulness" image="icons8-puzzle-26.png" selectedImage="icons8-puzzle-26.png" id="5gq-Oc-wwB"/>
                     <connections>
                         <outlet property="sliderValue" destination="exW-sZ-xs2" id="5BI-Fi-SfV"/>
                         <outlet property="stressSlider" destination="0aL-Lu-gas" id="UdN-ls-OB0"/>
@@ -143,7 +143,7 @@
             </objects>
             <point key="canvasLocation" x="-306" y="126"/>
         </scene>
-        <!--Favorites-->
+        <!--Table View Controller-->
         <scene sceneID="ts0-Ah-ViJ">
             <objects>
                 <tableViewController id="8dU-Mw-lN4" sceneMemberID="viewController">
@@ -166,11 +166,15 @@
                             <outlet property="delegate" destination="8dU-Mw-lN4" id="Ihx-22-7hd"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Favorites" id="z7r-96-USu"/>
+                    <tabBarItem key="tabBarItem" selectedImage="icons8-heart-26.png" systemItem="favorites" id="z7r-96-USu"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amt-bK-qTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="690" y="633"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-heart-26.png" width="26" height="26"/>
+        <image name="icons8-puzzle-26.png" width="26" height="26"/>
+    </resources>
 </document>
