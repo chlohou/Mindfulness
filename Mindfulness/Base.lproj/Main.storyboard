@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="652" y="-118.29085457271366"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu-->
         <scene sceneID="rQQ-l3-nRR">
             <objects>
-                <tableViewController id="Q4q-ry-y2v" sceneMemberID="viewController">
+                <tableViewController title="Menu" id="Q4q-ry-y2v" customClass="MenuTVC" customModule="Mindfulness" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3Q8-pD-mLz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,10 +100,29 @@
                             <outlet property="delegate" destination="Q4q-ry-y2v" id="Xwz-PV-Bnj"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="IVC-1n-RTB" kind="show" identifier="cellSelected" id="pg0-8d-bVD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rjM-3L-3fk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1700" y="-118"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qu2-Rk-J2c">
+            <objects>
+                <viewController id="IVC-1n-RTB" sceneMemberID="viewController">
+                    <layoutGuides/>
+                    <view key="view" contentMode="scaleToFill" id="kyW-Ie-tFI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="p2x-90-nJm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zLe-OO-KWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2674" y="-118"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="esS-yS-DaV">
