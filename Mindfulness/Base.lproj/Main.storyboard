@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -71,7 +72,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.066514091257668717" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49358804222840097" green="0.98377403846153844" blue="0.91030880513528178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="1Jw-7s-z0D"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mindfulness" image="icons8-puzzle-26.png" selectedImage="icons8-puzzle-26.png" id="5gq-Oc-wwB"/>
@@ -124,26 +126,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kyC-dq-3oc">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kyC-dq-3oc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="5UI-ck-O5m"/>
                                 </items>
                             </navigationBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Lo-lJ-TCK">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Lo-lJ-TCK">
                                 <rect key="frame" x="16" y="81" width="343" height="566"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVK-xC-uok">
+                                        <rect key="frame" x="8" y="8" width="327" height="138"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="138" id="Vxz-9H-2pc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-A6-HtK">
+                                        <rect key="frame" x="4" y="147" width="334" height="312"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="SVK-xC-uok" firstAttribute="trailing" secondItem="5Lo-lJ-TCK" secondAttribute="trailingMargin" id="W37-iu-O1j"/>
+                                    <constraint firstItem="SVK-xC-uok" firstAttribute="centerX" secondItem="5Lo-lJ-TCK" secondAttribute="centerX" id="kw1-BL-BJx"/>
+                                    <constraint firstItem="SVK-xC-uok" firstAttribute="leading" secondItem="5Lo-lJ-TCK" secondAttribute="leadingMargin" id="pKy-OB-U4u"/>
+                                    <constraint firstItem="SVK-xC-uok" firstAttribute="top" secondItem="5Lo-lJ-TCK" secondAttribute="topMargin" id="xnc-9M-cQv"/>
+                                    <constraint firstAttribute="bottom" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="420" id="ydL-H3-Glf"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="centerX" secondItem="kyC-dq-3oc" secondAttribute="centerX" id="3uY-xz-M1q"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5Lo-lJ-TCK" secondAttribute="bottom" constant="-73" id="52d-qg-3Fk"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="leading" secondItem="kyW-Ie-tFI" secondAttribute="leading" id="5YN-UR-n3Q"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="top" secondItem="kyW-Ie-tFI" secondAttribute="top" id="JGr-In-g1z"/>
+                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="trailing" secondItem="kyW-Ie-tFI" secondAttribute="trailingMargin" id="Jwe-Eq-tP0"/>
+                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="top" secondItem="p2x-90-nJm" secondAttribute="top" constant="17" id="nZg-eS-HvK"/>
+                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="leading" secondItem="kyW-Ie-tFI" secondAttribute="leadingMargin" id="yNa-E5-5Vf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="p2x-90-nJm"/>
                     </view>
                     <toolbarItems>
                         <barButtonItem title="Item" id="Zfh-F2-BRn"/>
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="display" destination="5Lo-lJ-TCK" id="bVd-tL-ycg"/>
+                        <outlet property="mindfulName" destination="SVK-xC-uok" id="YV0-t1-1iL"/>
+                        <outlet property="mindfulPrompt" destination="Tui-A6-HtK" id="JgC-Pt-Lvc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zLe-OO-KWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

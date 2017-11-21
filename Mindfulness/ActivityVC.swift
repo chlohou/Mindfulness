@@ -14,8 +14,16 @@ class ActivityVC: UIViewController {
     var mindActivity = String()
     var mindPrompt = String()
     
+    @IBOutlet weak var display: UIScrollView!
+    @IBOutlet weak var mindfulName: UILabel!
+    @IBOutlet weak var mindfulPrompt: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mindfulName.text = mindActivity
+        mindfulPrompt.text = mindPrompt
+        
         let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.back(sender:)))
         self.navigationItem.leftBarButtonItem = backButton
         
