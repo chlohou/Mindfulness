@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A010BCBE1FBD126700C87E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BCBD1FBD126700C87E88 /* AppDelegate.swift */; };
-		A010BCC01FBD126700C87E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BCBF1FBD126700C87E88 /* ViewController.swift */; };
 		A010BCC31FBD126700C87E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A010BCC11FBD126700C87E88 /* Main.storyboard */; };
 		A010BCC51FBD126700C87E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A010BCC41FBD126700C87E88 /* Assets.xcassets */; };
 		A010BCC81FBD126700C87E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */; };
 		A010BCD01FBD15AA00C87E88 /* StressLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */; };
 		A064F4C71FC35B9F00592DE3 /* icons8-puzzle-26.png in Resources */ = {isa = PBXBuildFile; fileRef = A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */; };
 		A064F4C91FC3731E00592DE3 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = A064F4C81FC3731D00592DE3 /* download.png */; };
+		A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDB9701FC3A99B008D457A /* faces_new.png */; };
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
 		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
 		A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */; };
@@ -25,7 +25,6 @@
 /* Begin PBXFileReference section */
 		A010BCBA1FBD126700C87E88 /* Mindfulness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindfulness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A010BCBD1FBD126700C87E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A010BCBF1FBD126700C87E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A010BCC21FBD126700C87E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A010BCC41FBD126700C87E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A010BCC71FBD126700C87E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,7 +32,7 @@
 		A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressLevelVC.swift; sourceTree = "<group>"; };
 		A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-puzzle-26.png"; path = "../../../Downloads/icons8-puzzle-26.png"; sourceTree = "<group>"; };
 		A064F4C81FC3731D00592DE3 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = "../../Desktop/Autism Paper Sources/download.png"; sourceTree = "<group>"; };
-		A064F4CA1FC3732000592DE3 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		A0CDB9701FC3A99B008D457A /* faces_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faces_new.png; path = ../../../Desktop/faces_new.png; sourceTree = "<group>"; };
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
 		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness.xcdatamodel; sourceTree = "<group>"; };
@@ -73,17 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				A010BCBD1FBD126700C87E88 /* AppDelegate.swift */,
-				A010BCBF1FBD126700C87E88 /* ViewController.swift */,
 				A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */,
-				A010BCC11FBD126700C87E88 /* Main.storyboard */,
+				A7574F571FC352A6009A0AF8 /* MenuTVC.swift */,
 				A7574F591FC35677009A0AF8 /* ActivityVC.swift */,
 				A7574F601FC36026009A0AF8 /* FavoritesTVC.swift */,
-				A7574F571FC352A6009A0AF8 /* MenuTVC.swift */,
 				A7574F621FC365A0009A0AF8 /* MindfulAct.swift */,
+				A010BCC11FBD126700C87E88 /* Main.storyboard */,
 				A010BCC41FBD126700C87E88 /* Assets.xcassets */,
 				A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */,
+				A0CDB9701FC3A99B008D457A /* faces_new.png */,
 				A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */,
-				A064F4CA1FC3732000592DE3 /* download.png */,
 				A010BCC91FBD126700C87E88 /* Info.plist */,
 				A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */,
 			);
@@ -154,6 +152,7 @@
 				A064F4C71FC35B9F00592DE3 /* icons8-puzzle-26.png in Resources */,
 				A010BCC51FBD126700C87E88 /* Assets.xcassets in Resources */,
 				A010BCC31FBD126700C87E88 /* Main.storyboard in Resources */,
+				A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */,
-				A010BCC01FBD126700C87E88 /* ViewController.swift in Sources */,
 				A7574F631FC365A0009A0AF8 /* MindfulAct.swift in Sources */,
 				A7574F611FC36026009A0AF8 /* FavoritesTVC.swift in Sources */,
 				A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */,

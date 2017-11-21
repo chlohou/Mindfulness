@@ -6,6 +6,8 @@
 //  Copyright © 2017 Chloe Houlihan. All rights reserved.
 //
 
+// TO DO: Delete Favorites, Add Icons
+
 import UIKit
 
 class StressLevelVC: UIViewController {
@@ -37,7 +39,7 @@ class StressLevelVC: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destVC = segue.destination as! MenuTVC
-        destVC.stressLevel = sliderValue.text!
+        destVC.stressLevel = Int(stressSlider.value)
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.

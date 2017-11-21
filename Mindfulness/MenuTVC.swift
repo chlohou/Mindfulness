@@ -10,12 +10,23 @@ import UIKit
 
 class MenuTVC: UITableViewController {
     
-    var options = [MindfulAct]()
+    let highOptions = [MindfulAct(name: "Mindful Walking", prompt: "do something"), MindfulAct(name: "Soles of the Feet", prompt: "do something"), MindfulAct(name: "Release Anger", prompt: "do something")]
+    let midOptions = [MindfulAct(name: "Mindful Breathing", prompt: " "), MindfulAct(name: "On and Off", prompt: " "), MindfulAct(name: "Stare at the Center", prompt: " "), MindfulAct(name: "Observe your thoughts", prompt: " ")]
+    let lowOptions = [MindfulAct(name: "Five Senses", prompt: " "), MindfulAct(name: "Body Awareness", prompt: " ")]
+    var options : [MindfulAct]?
     var selectedRow = Int()
-    var stressLevel = String()
+    var stressLevel = Int()
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if stressLevel >= 1 && stressLevel <= 3 {
+            options = lowOptions
+        } else if stressLevel < 7 {
+            options = midOptions
+        } else {
+            options = highOptions
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -37,13 +48,14 @@ class MenuTVC: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return options.count
+        return options!.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        cell.textLabel?.text = options[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath)
+        
+        cell.textLabel?.text = options![indexPath.row].name
 
         // Configure the cell...
 
@@ -107,8 +119,8 @@ class MenuTVC: UITableViewController {
         // Pass the selected object to the new view controller.
         let destVC = segue.destination as! ActivityVC
         destVC.isFave = false
-        destVC.mindPrompt = options[selectedRow].prompt
-        destVC.mindActivity = options[selectedRow].name
+        destVC.mindPrompt = options![selectedRow].prompt
+        destVC.mindActivity = options![selectedRow].name
         
     }
     
