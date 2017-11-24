@@ -6,7 +6,7 @@
 //  Copyright © 2017 Chloe Houlihan. All rights reserved.
 //
 
-// TO DO: Delete Favorites, Add Icons, Mess with stress screen/display screen, Add the actual prompts
+// TO DO: Delete Favorites, Mess with stress screen/display screen, Add the actual prompts
 
 import UIKit
 

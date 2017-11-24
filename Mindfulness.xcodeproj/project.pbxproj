@@ -14,6 +14,7 @@
 		A010BCD01FBD15AA00C87E88 /* StressLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */; };
 		A064F4C71FC35B9F00592DE3 /* icons8-puzzle-26.png in Resources */ = {isa = PBXBuildFile; fileRef = A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */; };
 		A064F4C91FC3731E00592DE3 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = A064F4C81FC3731D00592DE3 /* download.png */; };
+		A0CAF2071FC5F3DE00822B54 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = A0CAF2061FC5F3DE00822B54 /* AppIcons */; };
 		A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDB9701FC3A99B008D457A /* faces_new.png */; };
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
 		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
@@ -32,6 +33,7 @@
 		A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressLevelVC.swift; sourceTree = "<group>"; };
 		A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-puzzle-26.png"; path = "../../../Downloads/icons8-puzzle-26.png"; sourceTree = "<group>"; };
 		A064F4C81FC3731D00592DE3 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = "../../Desktop/Autism Paper Sources/download.png"; sourceTree = "<group>"; };
+		A0CAF2061FC5F3DE00822B54 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcons; path = ../../../Desktop/AppIcons; sourceTree = "<group>"; };
 		A0CDB9701FC3A99B008D457A /* faces_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faces_new.png; path = ../../../Desktop/faces_new.png; sourceTree = "<group>"; };
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
 		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				A7574F621FC365A0009A0AF8 /* MindfulAct.swift */,
 				A010BCC11FBD126700C87E88 /* Main.storyboard */,
 				A010BCC41FBD126700C87E88 /* Assets.xcassets */,
+				A0CAF2061FC5F3DE00822B54 /* AppIcons */,
 				A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */,
 				A0CDB9701FC3A99B008D457A /* faces_new.png */,
 				A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */,
@@ -151,6 +154,7 @@
 				A064F4C91FC3731E00592DE3 /* download.png in Resources */,
 				A064F4C71FC35B9F00592DE3 /* icons8-puzzle-26.png in Resources */,
 				A010BCC51FBD126700C87E88 /* Assets.xcassets in Resources */,
+				A0CAF2071FC5F3DE00822B54 /* AppIcons in Resources */,
 				A010BCC31FBD126700C87E88 /* Main.storyboard in Resources */,
 				A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */,
 			);
