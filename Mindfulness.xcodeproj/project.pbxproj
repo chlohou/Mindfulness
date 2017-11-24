@@ -16,6 +16,11 @@
 		A064F4C91FC3731E00592DE3 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = A064F4C81FC3731D00592DE3 /* download.png */; };
 		A0CAF2071FC5F3DE00822B54 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = A0CAF2061FC5F3DE00822B54 /* AppIcons */; };
 		A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDB9701FC3A99B008D457A /* faces_new.png */; };
+		A0E67D591FC89568003C7D22 /* pexels-photo-370799.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0E67D581FC89568003C7D22 /* pexels-photo-370799.jpeg */; };
+		A0E67D5B1FC897C1003C7D22 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E67D5A1FC897C0003C7D22 /* sad.png */; };
+		A0E67D5D1FC897C8003C7D22 /* happyface.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E67D5C1FC897C8003C7D22 /* happyface.png */; };
+		A0E67D5F1FC899E7003C7D22 /* CreateFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E67D5E1FC899E7003C7D22 /* CreateFace.swift */; };
+		A0E67D611FC8AC61003C7D22 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E67D601FC8AC61003C7D22 /* black.jpg */; };
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
 		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
 		A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */; };
@@ -35,6 +40,11 @@
 		A064F4C81FC3731D00592DE3 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = "../../Desktop/Autism Paper Sources/download.png"; sourceTree = "<group>"; };
 		A0CAF2061FC5F3DE00822B54 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcons; path = ../../../Desktop/AppIcons; sourceTree = "<group>"; };
 		A0CDB9701FC3A99B008D457A /* faces_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faces_new.png; path = ../../../Desktop/faces_new.png; sourceTree = "<group>"; };
+		A0E67D581FC89568003C7D22 /* pexels-photo-370799.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-370799.jpeg"; path = "../../../Downloads/pexels-photo-370799.jpeg"; sourceTree = "<group>"; };
+		A0E67D5A1FC897C0003C7D22 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = ../../../Downloads/sad.png; sourceTree = "<group>"; };
+		A0E67D5C1FC897C8003C7D22 /* happyface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happyface.png; path = ../../../Downloads/happyface.png; sourceTree = "<group>"; };
+		A0E67D5E1FC899E7003C7D22 /* CreateFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFace.swift; sourceTree = "<group>"; };
+		A0E67D601FC8AC61003C7D22 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black.jpg; path = ../../../Downloads/black.jpg; sourceTree = "<group>"; };
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
 		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness.xcdatamodel; sourceTree = "<group>"; };
@@ -75,6 +85,7 @@
 			children = (
 				A010BCBD1FBD126700C87E88 /* AppDelegate.swift */,
 				A010BCCF1FBD15AA00C87E88 /* StressLevelVC.swift */,
+				A0E67D5E1FC899E7003C7D22 /* CreateFace.swift */,
 				A7574F571FC352A6009A0AF8 /* MenuTVC.swift */,
 				A7574F591FC35677009A0AF8 /* ActivityVC.swift */,
 				A7574F601FC36026009A0AF8 /* FavoritesTVC.swift */,
@@ -85,6 +96,10 @@
 				A010BCC61FBD126700C87E88 /* LaunchScreen.storyboard */,
 				A0CDB9701FC3A99B008D457A /* faces_new.png */,
 				A064F4C61FC35B9F00592DE3 /* icons8-puzzle-26.png */,
+				A0E67D5C1FC897C8003C7D22 /* happyface.png */,
+				A0E67D5A1FC897C0003C7D22 /* sad.png */,
+				A0E67D601FC8AC61003C7D22 /* black.jpg */,
+				A0E67D581FC89568003C7D22 /* pexels-photo-370799.jpeg */,
 				A010BCC91FBD126700C87E88 /* Info.plist */,
 				A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */,
 			);
@@ -150,13 +165,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E67D5B1FC897C1003C7D22 /* sad.png in Resources */,
 				A010BCC81FBD126700C87E88 /* LaunchScreen.storyboard in Resources */,
 				A064F4C91FC3731E00592DE3 /* download.png in Resources */,
 				A064F4C71FC35B9F00592DE3 /* icons8-puzzle-26.png in Resources */,
 				A010BCC51FBD126700C87E88 /* Assets.xcassets in Resources */,
+				A0E67D591FC89568003C7D22 /* pexels-photo-370799.jpeg in Resources */,
 				A0CAF2071FC5F3DE00822B54 /* AppIcons in Resources */,
 				A010BCC31FBD126700C87E88 /* Main.storyboard in Resources */,
+				A0E67D611FC8AC61003C7D22 /* black.jpg in Resources */,
 				A0CDB9711FC3A99B008D457A /* faces_new.png in Resources */,
+				A0E67D5D1FC897C8003C7D22 /* happyface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +192,7 @@
 				A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */,
 				A010BCD01FBD15AA00C87E88 /* StressLevelVC.swift in Sources */,
 				A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */,
+				A0E67D5F1FC899E7003C7D22 /* CreateFace.swift in Sources */,
 				A010BCBE1FBD126700C87E88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

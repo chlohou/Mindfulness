@@ -10,20 +10,36 @@
 
 import UIKit
 
+
 class StressLevelVC: UIViewController {
 
-    @IBOutlet weak var sliderValue: UILabel!
-    @IBOutlet weak var stressSlider: UISlider! 
     
+    @IBOutlet weak var sliderValue: UILabel!
+    @IBOutlet weak var stressSlider: UISlider!
+    
+    @IBOutlet weak var happyFace: CreateFace!
+    
+    @IBOutlet weak var sadFace: CreateFace!
+   
+    @IBOutlet weak var submitButton: UIButton! { didSet {
+        submitButton.clipsToBounds = true
+        submitButton.layer.cornerRadius = submitButton.bounds.size.width/4
+        submitButton.layer.backgroundColor = UIColor.black.cgColor
+        submitButton.layer.borderWidth = 2
+        submitButton.layer.borderColor = UIColor.white.cgColor
+        
+        
+    }
+    }
     
     
     @IBAction func stressChange(_ sender: UISlider) {
         sliderValue.text = String(format: "%.0f", stressSlider.value)
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
 
