@@ -16,6 +16,7 @@ class ActivityVC: UIViewController {
     
     @IBOutlet weak var display: UIScrollView!
     @IBOutlet weak var mindfulName: UILabel!
+    @IBOutlet weak var centerStare: UIActivityIndicatorView!
     @IBOutlet weak var mindfulPrompt: UILabel!
     
     override func viewDidLoad() {
@@ -23,6 +24,9 @@ class ActivityVC: UIViewController {
         
         mindfulName.text = mindActivity
         mindfulPrompt.text = mindPrompt
+        if mindActivity == "Stare at the Center"{
+            centerStare.startAnimating()
+        }
         
         let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.back(sender:)))
         self.navigationItem.leftBarButtonItem = backButton
@@ -50,6 +54,8 @@ class ActivityVC: UIViewController {
         let fave = Activity(context: context)
         fave.mindName = mindActivity
         fave.mindPrompt = mindPrompt
+        
+        
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         
     _ = navigationController?.popViewController(animated: true)
