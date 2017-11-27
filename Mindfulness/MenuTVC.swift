@@ -10,9 +10,9 @@ import UIKit
 
 class MenuTVC: UITableViewController {
     
-    let highOptions = [MindfulAct(name: "Mindful Walking", prompt: "do something"), MindfulAct(name: "Soles of the Feet", prompt: "do something"), MindfulAct(name: "Release Anger", prompt: "do something")]
-    let midOptions = [MindfulAct(name: "Mindful Breathing", prompt: " "), MindfulAct(name: "On and Off", prompt: " "), MindfulAct(name: "Stare at the Center", prompt: " "), MindfulAct(name: "Observe your thoughts", prompt: " ")]
-    let lowOptions = [MindfulAct(name: "Five Senses", prompt: " "), MindfulAct(name: "Body Awareness", prompt: " ")]
+    let highOptions = [MindfulAct(name: "Five Senses", prompt: " "), MindfulAct(name: "Body Awareness", prompt: " "), MindfulAct(name: "Appreciation",  prompt: "Stop and consciously identify what you are able to appreciate in this moment. It could be something about yourself, another person, your enviornment, or what your body is sensing."), MindfulAct(name: "Look Up!", prompt: "Throughout your day, deliberately look up. Take a few minutes to really look at the ceiling in the room, tall buildings, the tops of tress, and the sky.")]
+    let midOptions = [MindfulAct(name: "Mindful Breathing", prompt: " "), MindfulAct(name: "On and Off", prompt: "Sit or stand in a comfortable position. Take a deep breath in and make every muscle in your body tense - your toes, legs, fingers, arms, and face. Take a deep breath out and relax your body, turning all the energy off."), MindfulAct(name: "Stare at the Center", prompt: " "), MindfulAct(name: "Observe your thoughts", prompt: " ")]
+    let lowOptions = [MindfulAct(name: "Mindful Walking", prompt: "do something"), MindfulAct(name: "Soles of the Feet", prompt: "Place awareness in the soles of your feet. Become aware of the sensations on the bottoms of the feet, such as the pressure of the floor or ground beneath the feet, or the warmth or coolness of the feet. Do this whenever you begin to notice yourself becoming anxious or upset."), MindfulAct(name: "Release Anger", prompt: "do something"), MindfulAct(name: "Notice Dislike", prompt: "Become aware of negative feelings you may have towards someone or something. Try to think about what happened just before these negatives feelings occured. What sense impressions occured - sight, sound, touch, taste, smell, or thought?" )]
     var options : [MindfulAct]?
     var selectedRow = Int()
     var stressLevel = Int()
