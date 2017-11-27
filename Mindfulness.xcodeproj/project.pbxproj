@@ -21,6 +21,7 @@
 		A0E67D611FC8AC61003C7D22 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E67D601FC8AC61003C7D22 /* black.jpg */; };
 		A0E9C1E61FCCBD6700F98194 /* icons8-puzzle-26.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E9C1E51FCCBD6600F98194 /* icons8-puzzle-26.png */; };
 		A0E9C1E81FCCBD7A00F98194 /* pexels-photo-370799.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0E9C1E71FCCBD7900F98194 /* pexels-photo-370799.jpeg */; };
+		A0E9C1EA1FCCBDA700F98194 /* Mindfulness in Resources */ = {isa = PBXBuildFile; fileRef = A0E9C1E91FCCBDA600F98194 /* Mindfulness */; };
 		A7574F581FC352A6009A0AF8 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F571FC352A6009A0AF8 /* MenuTVC.swift */; };
 		A7574F5A1FC35677009A0AF8 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7574F591FC35677009A0AF8 /* ActivityVC.swift */; };
 		A7574F5D1FC35919009A0AF8 /* Mindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */; };
@@ -45,6 +46,7 @@
 		A0E67D601FC8AC61003C7D22 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black.jpg; path = ../../../Downloads/black.jpg; sourceTree = "<group>"; };
 		A0E9C1E51FCCBD6600F98194 /* icons8-puzzle-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-puzzle-26.png"; sourceTree = "<group>"; };
 		A0E9C1E71FCCBD7900F98194 /* pexels-photo-370799.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-370799.jpeg"; sourceTree = "<group>"; };
+		A0E9C1E91FCCBDA600F98194 /* Mindfulness */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Mindfulness; sourceTree = "<group>"; };
 		A7574F571FC352A6009A0AF8 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
 		A7574F591FC35677009A0AF8 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		A7574F5C1FC35919009A0AF8 /* Mindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness.xcdatamodel; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				A0E67D5A1FC897C0003C7D22 /* sad.png */,
 				A0E67D601FC8AC61003C7D22 /* black.jpg */,
 				A0E9C1E71FCCBD7900F98194 /* pexels-photo-370799.jpeg */,
+				A0E9C1E91FCCBDA600F98194 /* Mindfulness */,
 				A010BCC91FBD126700C87E88 /* Info.plist */,
 				A7574F5B1FC35919009A0AF8 /* Mindfulness.xcdatamodeld */,
 			);
@@ -168,6 +171,7 @@
 				A0E67D5B1FC897C1003C7D22 /* sad.png in Resources */,
 				A010BCC81FBD126700C87E88 /* LaunchScreen.storyboard in Resources */,
 				A064F4C91FC3731E00592DE3 /* download.png in Resources */,
+				A0E9C1EA1FCCBDA700F98194 /* Mindfulness in Resources */,
 				A010BCC51FBD126700C87E88 /* Assets.xcassets in Resources */,
 				A0E9C1E81FCCBD7A00F98194 /* pexels-photo-370799.jpeg in Resources */,
 				A0CAF2071FC5F3DE00822B54 /* AppIcons in Resources */,
