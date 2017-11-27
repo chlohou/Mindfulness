@@ -26,6 +26,9 @@ class ActivityVC: UIViewController {
         mindfulPrompt.text = mindPrompt
         if mindActivity == "Stare at the Center"{
             centerStare.startAnimating()
+            centerStare.color = .black
+            
+        
         }
         
         let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.back(sender:)))
