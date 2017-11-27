@@ -17,7 +17,7 @@ class StressLevelVC: UIViewController {
     @IBOutlet weak var sliderValue: UILabel!
     @IBOutlet weak var stressSlider: UISlider!
     
-    @IBOutlet weak var happyFace: CreateFace!
+    @IBOutlet weak var happyFace: CreateFace! 
     
     @IBOutlet weak var sadFace: CreateFace!
    
