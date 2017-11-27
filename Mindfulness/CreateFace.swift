@@ -21,7 +21,7 @@ class CreateFace: UIView {
     @IBInspectable
     var color: UIColor = UIColor.white
     @IBInspectable
-    var lineWidth: CGFloat = 1.0
+    var lineWidth: CGFloat = 2.0
     
     private var skullRadius: CGFloat {
         return min(bounds.size.width, bounds.size.height)/2 * scale
