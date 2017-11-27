@@ -17,7 +17,6 @@ class CreateFace: UIView {
     var mouthCurvature: Double = -1.0
     @IBInspectable
     var eyesOpen: Bool = true
-   
     @IBInspectable
     var color: UIColor = UIColor.white
     @IBInspectable
