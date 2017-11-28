@@ -14,7 +14,7 @@ class CreateFace: UIView {
     @IBInspectable
     var scale: CGFloat = 0.9
     @IBInspectable
-    var mouthCurvature: Double = -1.0
+    var mouthCurvature: Double = -1.0 { didSet{ setNeedsDisplay() } }
     @IBInspectable
     var eyesOpen: Bool = true
     @IBInspectable

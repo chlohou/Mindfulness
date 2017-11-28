@@ -6,14 +6,14 @@
 //  Copyright © 2017 Chloe Houlihan. All rights reserved.
 //
 
-// TO DO: Delete Favorites, Mess with stress screen/display screen, Add the actual prompts
+// TO DO: Try on different devices 
 
 import UIKit
 
 
 class StressLevelVC: UIViewController {
 
-    
+    var mouthCurve = -1.0
     @IBOutlet weak var sliderValue: UILabel!
     @IBOutlet weak var stressSlider: UISlider!
     
@@ -35,6 +35,8 @@ class StressLevelVC: UIViewController {
     
     @IBAction func stressChange(_ sender: UISlider) {
         sliderValue.text = String(format: "%.0f", stressSlider.value)
+        mouthCurve = Double(stressSlider.value)/5-1
+        happyFace.mouthCurvature = mouthCurve
     }
     
     
