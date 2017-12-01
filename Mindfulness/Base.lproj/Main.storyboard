@@ -200,10 +200,12 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-A6-HtK">
-                                        <rect key="frame" x="4" y="147" width="334" height="312"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-A6-HtK">
+                                        <rect key="frame" x="7.5" y="147" width="327" height="312"/>
                                         <color key="backgroundColor" red="0.62906306198456408" green="0.86898713478694434" blue="0.87954076776649748" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="312" id="KCf-fY-bid"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -212,14 +214,17 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="SVK-xC-uok" firstAttribute="trailing" secondItem="5Lo-lJ-TCK" secondAttribute="trailingMargin" id="W37-iu-O1j"/>
+                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="centerX" secondItem="SVK-xC-uok" secondAttribute="centerX" id="hQi-5U-U8u"/>
                                     <constraint firstItem="SVK-xC-uok" firstAttribute="centerX" secondItem="5Lo-lJ-TCK" secondAttribute="centerX" id="kw1-BL-BJx"/>
                                     <constraint firstItem="SVK-xC-uok" firstAttribute="leading" secondItem="5Lo-lJ-TCK" secondAttribute="leadingMargin" id="pKy-OB-U4u"/>
+                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="width" secondItem="SVK-xC-uok" secondAttribute="width" id="twu-1N-rAU"/>
                                     <constraint firstItem="SVK-xC-uok" firstAttribute="top" secondItem="5Lo-lJ-TCK" secondAttribute="topMargin" id="xnc-9M-cQv"/>
                                     <constraint firstAttribute="bottom" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="420" id="ydL-H3-Glf"/>
+                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="top" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="1" id="zaH-LA-JKh"/>
                                 </constraints>
                             </scrollView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="oRS-JT-6jI">
-                                <rect key="frame" x="177" y="415" width="20" height="20"/>
+                                <rect key="frame" x="177" y="432" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                             </activityIndicatorView>
