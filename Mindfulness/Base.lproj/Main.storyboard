@@ -187,57 +187,42 @@
                                     <navigationItem title="Title" id="5UI-ck-O5m"/>
                                 </items>
                             </navigationBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Lo-lJ-TCK">
-                                <rect key="frame" x="16" y="81" width="343" height="566"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVK-xC-uok">
-                                        <rect key="frame" x="8" y="8" width="327" height="138"/>
-                                        <color key="backgroundColor" red="0.5264847279" green="0.81002098320000004" blue="0.94798189399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="138" id="Vxz-9H-2pc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-A6-HtK">
-                                        <rect key="frame" x="7.5" y="147" width="327" height="312"/>
-                                        <color key="backgroundColor" red="0.62906306198456408" green="0.86898713478694434" blue="0.87954076776649748" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="312" id="KCf-fY-bid"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-A6-HtK">
+                                <rect key="frame" x="0.0" y="212" width="375" height="455"/>
+                                <color key="backgroundColor" red="0.62906306198456408" green="0.86898713478694434" blue="0.87954076776649748" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVK-xC-uok">
+                                <rect key="frame" x="0.0" y="64" width="375" height="151"/>
+                                <color key="backgroundColor" red="0.5264847279" green="0.81002098320000004" blue="0.94798189399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="SVK-xC-uok" firstAttribute="trailing" secondItem="5Lo-lJ-TCK" secondAttribute="trailingMargin" id="W37-iu-O1j"/>
-                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="centerX" secondItem="SVK-xC-uok" secondAttribute="centerX" id="hQi-5U-U8u"/>
-                                    <constraint firstItem="SVK-xC-uok" firstAttribute="centerX" secondItem="5Lo-lJ-TCK" secondAttribute="centerX" id="kw1-BL-BJx"/>
-                                    <constraint firstItem="SVK-xC-uok" firstAttribute="leading" secondItem="5Lo-lJ-TCK" secondAttribute="leadingMargin" id="pKy-OB-U4u"/>
-                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="width" secondItem="SVK-xC-uok" secondAttribute="width" id="twu-1N-rAU"/>
-                                    <constraint firstItem="SVK-xC-uok" firstAttribute="top" secondItem="5Lo-lJ-TCK" secondAttribute="topMargin" id="xnc-9M-cQv"/>
-                                    <constraint firstAttribute="bottom" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="420" id="ydL-H3-Glf"/>
-                                    <constraint firstItem="Tui-A6-HtK" firstAttribute="top" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="1" id="zaH-LA-JKh"/>
+                                    <constraint firstAttribute="height" constant="151" id="2Aa-AF-6fJ"/>
                                 </constraints>
-                            </scrollView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="oRS-JT-6jI">
-                                <rect key="frame" x="177" y="432" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="oRS-JT-6jI">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="centerX" secondItem="kyC-dq-3oc" secondAttribute="centerX" id="3uY-xz-M1q"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="5Lo-lJ-TCK" secondAttribute="bottom" constant="-73" id="52d-qg-3Fk"/>
-                            <constraint firstItem="kyC-dq-3oc" firstAttribute="leading" secondItem="kyW-Ie-tFI" secondAttribute="leading" id="5YN-UR-n3Q"/>
-                            <constraint firstItem="kyC-dq-3oc" firstAttribute="top" secondItem="kyW-Ie-tFI" secondAttribute="top" id="JGr-In-g1z"/>
-                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="trailing" secondItem="kyW-Ie-tFI" secondAttribute="trailingMargin" id="Jwe-Eq-tP0"/>
-                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="top" secondItem="p2x-90-nJm" secondAttribute="top" constant="17" id="nZg-eS-HvK"/>
-                            <constraint firstItem="5Lo-lJ-TCK" firstAttribute="leading" secondItem="kyW-Ie-tFI" secondAttribute="leadingMargin" id="yNa-E5-5Vf"/>
+                            <constraint firstItem="Tui-A6-HtK" firstAttribute="top" secondItem="p2x-90-nJm" secondAttribute="top" constant="148" id="25d-f1-fm4"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="trailing" secondItem="Tui-A6-HtK" secondAttribute="trailing" id="Izf-UU-CSs"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="leading" secondItem="kyW-Ie-tFI" secondAttribute="leading" id="NIX-z6-SWr"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="top" secondItem="kyW-Ie-tFI" secondAttribute="top" id="QPK-qr-qeq"/>
+                            <constraint firstItem="oRS-JT-6jI" firstAttribute="top" secondItem="SVK-xC-uok" secondAttribute="bottom" constant="100" id="U2T-88-QFp"/>
+                            <constraint firstAttribute="trailing" secondItem="kyC-dq-3oc" secondAttribute="trailing" id="UUV-UE-I3e"/>
+                            <constraint firstItem="kyC-dq-3oc" firstAttribute="leading" secondItem="Tui-A6-HtK" secondAttribute="leading" id="XZC-D9-3Su"/>
+                            <constraint firstAttribute="bottom" secondItem="Tui-A6-HtK" secondAttribute="bottom" id="YAf-Ra-hIn"/>
+                            <constraint firstItem="SVK-xC-uok" firstAttribute="centerX" secondItem="oRS-JT-6jI" secondAttribute="centerX" id="f52-7A-M99"/>
+                            <constraint firstItem="SVK-xC-uok" firstAttribute="top" secondItem="p2x-90-nJm" secondAttribute="top" id="qCP-vh-cGv"/>
+                            <constraint firstItem="SVK-xC-uok" firstAttribute="leading" secondItem="kyC-dq-3oc" secondAttribute="leading" id="rKK-be-fmO"/>
+                            <constraint firstItem="SVK-xC-uok" firstAttribute="trailing" secondItem="kyC-dq-3oc" secondAttribute="trailing" id="xsj-4A-DPX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p2x-90-nJm"/>
                     </view>
@@ -247,7 +232,6 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="centerStare" destination="oRS-JT-6jI" id="7jW-OL-IqO"/>
-                        <outlet property="display" destination="5Lo-lJ-TCK" id="bVd-tL-ycg"/>
                         <outlet property="mindfulName" destination="SVK-xC-uok" id="YV0-t1-1iL"/>
                         <outlet property="mindfulPrompt" destination="Tui-A6-HtK" id="JgC-Pt-Lvc"/>
                     </connections>
